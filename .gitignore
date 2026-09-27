@@ -1,0 +1,13 @@
+.venv/
+data/
+__pycache__/
+*.pt
+*.pth
+*.onnx
+runs/
+.cache/
+manager_store/
+.version
+experiments/
+.claude/
+*.exe

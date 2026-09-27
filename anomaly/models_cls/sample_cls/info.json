@@ -1,0 +1,46 @@
+{
+  "model_name": "sample_cls",
+  "backbone": "resnet18",
+  "image_size": 224,
+  "classes": [
+    "blob",
+    "good",
+    "missing",
+    "scratch"
+  ],
+  "counts": {
+    "blob": 50,
+    "good": 50,
+    "missing": 50,
+    "scratch": 50
+  },
+  "epochs": 15,
+  "val_accuracy": 1.0,
+  "confusion": [
+    [
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "train_seconds": 17.8
+}

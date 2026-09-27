@@ -1,0 +1,15 @@
+{
+  "model_name": "sample",
+  "normal_dir": "data\\sample\\train\\good",
+  "abnormal_dir": "data/sample/test/defect",
+  "image_size": 256,
+  "coreset_ratio": 0.1,
+  "n_normal": 60,
+  "train_seconds": 143.3,
+  "metrics": {
+    "image_AUROC": 1.0,
+    "image_F1Score": 1.0
+  },
+  "threshold": 0.5,
+  "model_path": "D:\\Claude\\anomaly\\models\\sample\\weights\\torch\\model.pt"
+}

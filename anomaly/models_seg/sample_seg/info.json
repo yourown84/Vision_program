@@ -1,0 +1,10 @@
+{
+  "model_name": "sample_seg",
+  "encoder": "resnet18",
+  "image_size": 256,
+  "n_pairs": 100,
+  "epochs": 15,
+  "val_iou": 0.8921,
+  "threshold": 0.5,
+  "train_seconds": 14.0
+}
